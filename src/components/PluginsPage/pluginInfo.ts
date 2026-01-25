@@ -32,6 +32,12 @@ export const featuredPluginsInfo: PluginInfo[] = [
         imageSrc: "img/pluginImages/kubescape.png",
         imageAlt: "Kubescape Plugin",
     },
+    {
+        displayName: "Knative",
+        featDescription: "The Knative plugin provides a UI for viewing and managing Knative resources in Headlamp, including Services, Revisions, and Routes for serverless workloads.",
+        imageSrc: "img/pluginImages/knative.png",
+        imageAlt: "Knative Plugin",
+    },
 ];
 
 // Function that updates allPluginsData with featured plugin info
